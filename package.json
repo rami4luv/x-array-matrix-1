@@ -1,0 +1,27 @@
+{
+  "name": "x-array-matrix-1",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prebuild": "jshint src/*.js && mkdirp docs && cp src/index.html docs/",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rami4luv/x-array-matrix-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rami4luv/x-array-matrix-1/issues"
+  },
+  "homepage": "https://github.com/rami4luv/x-array-matrix-1#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "cp": "^0.2.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.5.3"
+  }
+}
